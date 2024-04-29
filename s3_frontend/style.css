@@ -1,0 +1,77 @@
+/******************************************************************************/
+S:root {
+   --base-font-size: 100%;
+
+   /* use a 1.2 type scale */
+   --font-size-1: 1em;
+   --font-size-2: calc( var(--base-font-size) * 1.2);
+   --font-size-3: calc( var(--font-size-2) * 1.2);
+   --font-size-4: calc( var(--font-size-3) * 1.2);
+   --font-size-5: calc( var(--font-size-4) * 1.2);
+   --font-size-6: calc( var(--font-size-5) * 1.2);
+   --font-size-7: calc( var(--font-size-6) * 1.2);
+
+   --spacing-extra-large: 8em;
+   --spacing-large: 4em;
+   --spacing-med: 2em;
+   --spacing-small: 1em;
+   --spacing-very-small: 0.5em;
+}
+
+img {
+  object-fit: scale-down;
+    height: 100%;
+}
+
+i.gg-smartphone i.gg-mail i.gg-home {
+  display: inline;
+  white-space: nowrap;
+}
+
+span {
+  width: 3000px;
+  padding: 5px 10px 5px 16px;
+/*   margin: 3px; */
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 12px;
+}
+
+span.phone {
+  background-image: url("https://cdn.glitch.global/3a3b815f-b5e8-4809-a3ed-c83efedbf123/telephone.png?v=1697706654612");
+}
+
+span.email {
+  background-image: url("https://cdn.glitch.global/3a3b815f-b5e8-4809-a3ed-c83efedbf123/email.png?v=1697706642374");
+}
+
+span.address {
+  background-image: url("https://cdn.glitch.global/3a3b815f-b5e8-4809-a3ed-c83efedbf123/home.png?v=1697706638133");
+}
+
+p {
+  font: monospace;
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .row {
+    grid-template-columns: 1fr;
+  }
+  
+  .row-cols-2 {
+    grid-template-columns: 1fr;
+  }
+  
+  .col {
+    width: 100%;
+  }
+  
+  .navbar {
+    display: block;
+    visibility: visible;
+  }
+
+}
+
+@import url("https://css.gg/css");
