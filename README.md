@@ -10,7 +10,7 @@ On AWS this is a Lambda function invoked by API Gateway, which is itself invoked
 The `lambda_send_notification` is code that parses through S3 bucket logs and sends an SNS notification about the number of GET requests every day. <br>
 On AWS this is a Lambda function invoked daily by a cron rule.
 
-The `dynamodb_backend` is a CSV of all the data used by the website. <br>
+The `dynamodb_backend.csv` is a CSV of all the data used by the website. <br>
 On AWS this is a DynamoDB table.
 
 http://indstudy-finalproject.s3-website-us-east-1.amazonaws.com
