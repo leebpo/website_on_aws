@@ -13,4 +13,6 @@ On AWS this is a Lambda function invoked by API Gateway, which is itself invoked
 The `lambda_send_notification.py` is code that parses through S3 bucket logs and sends an SNS notification about the number of GET requests every day. <br>
 On AWS this is a Lambda function invoked daily by a cron rule.
 
-http://indstudy-finalproject.s3-website-us-east-1.amazonaws.com
+[URL for the website hosted on S3](http://indstudy-finalproject.s3-website-us-east-1.amazonaws.com)
+
+This repo was archived to make it read-only
